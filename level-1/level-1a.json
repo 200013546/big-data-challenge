@@ -324,7 +324,7 @@
     },
     {
       "title": "",
-      "text": "%pyspark\nmode \u003d \"append\"\njdbc_url\u003d\"jdbc:postgresql://database-1.ctgtjfmpq3nq.us-east-1.rds.amazonaws.com:5432/postgres\"\nconfig \u003d {\"user\":\"postgres\", \"password\": \"drowssap\", \"driver\":\"org.postgresql.Driver\"}",
+      "text": "%pyspark\nmode \u003d \"append\"\njdbc_url\u003d\"jdbc:postgresql://<endpoint>:5432/postgres\"\nconfig \u003d {\"user\":\"postgres\", \"password\": \"<password>\", \"driver\":\"org.postgresql.Driver\"}",
       "user": "",
       "dateUpdated": "2020-08-02 14:26:27.000",
       "config": {
